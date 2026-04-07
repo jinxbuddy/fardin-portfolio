@@ -95,7 +95,7 @@
             "category": "Deep Learning & Vision",
             "icon": "fas fa-eye",
             "items": [
-                "CNNs & RNNs",
+                "CNNs, RNNs, LSTMs",
                 "Transformers & GNNs",
                 "Autoencoders",
                 "Variational Autoencoders (VAEs)",
