@@ -250,19 +250,4 @@ function initAnimations() {
     });
 }
 
-// Form logic
-const form = document.querySelector('.contact-form');
-if(form) {
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const btn = form.querySelector('button');
-        const originalText = btn.innerText;
-        btn.innerText = 'Sent Successfully!';
-        btn.style.background = '#10b981'; 
-        setTimeout(() => {
-            btn.innerText = originalText;
-            btn.style.background = ''; 
-            form.reset();
-        }, 3000);
-    });
-}
+// Form logic is handled natively by formsubmit.co via index.html action attribute.
