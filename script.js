@@ -24,8 +24,8 @@ function updateThemeIcon(theme) {
     }
 }
 
-// Fetch Data and Render
-fetch('data.json')
+// Fetch Data and Render (with cache bypassing for mobile devices)
+fetch(`data.json?v=${new Date().getTime()}`)
     .then(response => response.json())
     .then(data => {
         renderHero(data.hero);
