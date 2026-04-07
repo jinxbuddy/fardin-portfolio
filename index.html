@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fardin Zahid - Portfolio</title>
+    <meta name="description" content="Portfolio of Fardin Zahid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="geometry-bg">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">FZ<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#education">Education & Training</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="fade-in">
+        <div class="hero-content">
+            <h2 class="greeting" id="hero-greeting">Loading...</h2>
+            <h1 class="name" id="hero-name"></h1>
+            <h3 class="title" id="hero-title"></h3>
+            <p class="summary" id="hero-summary"></p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Get in Touch</a>
+                <a href="#experience" class="btn secondary">View Work</a>
+            </div>
+            <div class="social-links" id="hero-socials"></div>
+        </div>
+        <div class="hero-graphic fade-in">
+            <div class="blob"></div>
+        </div>
+    </header>
+
+    <section id="education" class="section">
+        <div class="section-heading fade-in">
+            <h2>Education</h2>
+            <div class="line"></div>
+        </div>
+        <div class="timeline fade-in" id="education-container"></div>
+
+        <div class="section-heading fade-in" style="margin-top: 5rem;">
+            <h2>Training & Courses</h2>
+            <div class="line"></div>
+        </div>
+        <div class="grid-container fade-in" id="training-container"></div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <div class="section-heading fade-in">
+            <h2>Research Experience</h2>
+            <div class="line"></div>
+        </div>
+        <div class="experience-list" id="experience-container"></div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-heading fade-in">
+            <h2>Technical Skills</h2>
+            <div class="line"></div>
+        </div>
+        <div class="skills-grid fade-in" id="skills-container"></div>
+    </section>
+
+    <section id="awards" class="section bg-light">
+        <div class="section-heading fade-in">
+            <h2>Awards & Honors</h2>
+            <div class="line"></div>
+        </div>
+        <div class="grid-container fade-in" id="awards-container"></div>
+    </section>
+
+    <section id="publications" class="section">
+        <div class="section-heading fade-in">
+            <h2>Publications</h2>
+            <div class="line"></div>
+        </div>
+        <div class="pub-list" id="publications-container"></div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="section-heading fade-in">
+            <h2>Get in Touch</h2>
+            <div class="line"></div>
+        </div>
+        <div class="contact-container fade-in">
+            <div class="contact-info" id="contact-container">
+                <!-- Injected via JS -->
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 <span id="footer-name"></span>. All rights reserved.</p>
+        <div class="social-links footer-socials" id="footer-socials"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

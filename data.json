@@ -1,0 +1,185 @@
+{
+    "hero": {
+        "greeting": "Hi, I'm",
+        "name": "Fardin Zahid",
+        "title": "Biotech & AI Enthusiast",
+        "summary": "Currently pursuing a Master’s degree in Biotechnologies and Applied Artificial Intelligence for Health at the University of Pisa. I aim to leverage machine learning and AI to uncover disease mechanisms and therapeutic responses for precision medicine.",
+        "socials": {
+            "linkedin": "https://linkedin.com/in/fardin-zahid",
+            "twitter": "https://x.com/rtcrab",
+            "orcid": "https://orcid.org/0000-0001-6269-9169",
+            "email": "mailto:f.zahid@studenti.unipi.it"
+        }
+    },
+    "education": [
+        {
+            "date": "11/2023 - Present",
+            "institution": "University of Pisa, Italy",
+            "degree": "Master’s Degree, Biotechnologies and Applied Artificial Intelligence for Health",
+            "coursework": "Bioinformatics, In-silico Modeling, AI, Probability and Biostatistics, OMICS, Bioengineering.",
+            "thesis": "Cancer drug response modeling on cancer transcriptomics (ongoing) under Prof. Francesco Raimondi."
+        },
+        {
+            "date": "12/2017 - 03/2022",
+            "institution": "Shahjalal University of Science and Technology, Bangladesh",
+            "degree": "Bachelor’s Degree, Genetic Engineering and Biotechnology",
+            "coursework": "Molecular/Medical/Microbial Biotech, Genetics, Microbiology.",
+            "thesis": "Population genomics from 12 human populations: evidence from the past and implications for the future under Prof. Mohammad Zahangir Alam."
+        }
+    ],
+    "training": [
+        {
+            "title": "Metagenome in Newborns",
+            "institution": "University of Pisa (03/2024 - 04/2024)",
+            "description": "Laboratory and computational training covering DNA extraction, PCR, electrophoresis, and sequencing analysis using Ubuntu, Conda, and QIIME2."
+        },
+        {
+            "title": "Next-Gen Pathogen Sequencing",
+            "institution": "Child Health Research Foundation (02/2023 - 03/2023)",
+            "description": "Focused on infectious disease surveillance, pathogen genomics, clinical specimen processing, and sequencing on Illumina platforms."
+        },
+        {
+            "title": "Bioinformatics for Biologists",
+            "institution": "Wellcome Connecting Science (09/2021 - 11/2021)",
+            "description": "Managing large-scale biological datasets through Linux environments and automated pipelines using Python and R."
+        },
+        {
+            "title": "Scientific Computing with Python",
+            "institution": "freeCodeCamp (11/2021 - 05/2021)",
+            "description": "Comprehensive hands-on training in Python programming, covering data structures, object-oriented programming, algorithms, and logic for scientific computing applications."
+        },
+        {
+            "title": "Drug designing using cheminformatics techniques",
+            "institution": "Red Green Research Society",
+            "description": "Workshop covering the fundamentals of cheminformatics, molecular docking, and computational drug discovery workflows."
+        },
+        {
+            "title": "R for reproducible Scientific analysis",
+            "institution": "Software Carpentry",
+            "description": "Training program teaching researchers how to write modular, reproducible code in R for statistical data analysis and visualization."
+        }
+    ],
+    "experience": [
+        {
+            "institution": "BioInfoLab@SNS, Scuola Normale Superiore, Pisa, Italy",
+            "role": "MS Thesis Student",
+            "date": "06/2025 - Present",
+            "supervisor": "Prof. Francesco Raimondi, PhD",
+            "details": [
+                "Building ML/AI models to predict drug response in cancer cell lines using gene-expression data.",
+                "Computationally identifying biomarkers and patterns that enhance biological interpretation."
+            ]
+        },
+        {
+            "institution": "Child Health Research Foundation, Dhaka, Bangladesh",
+            "role": "Research Intern",
+            "date": "10/2022 - 12/2022",
+            "details": [
+                "Performed DNA/RNA extraction, purification, PCR, and RT-qPCR assays (COVID-19 and RSV).",
+                "Maintained microbial cell cultures, supporting experimental conditions."
+            ]
+        },
+        {
+            "institution": "Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+            "role": "Bachelor’s Thesis Student",
+            "date": "04/2021 - 12/2021",
+            "supervisor": "Prof. Mohammad Zahangir Alam, PhD",
+            "details": [
+                "Conducted a population genomics study on 12 human populations from the 1000 Genomes Project.",
+                "Employed PLINK, PCA, F-statistics, Admixture analysis using KING-robust, SNPrelate, and R scripting."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Programming & Tools",
+            "icon": "fas fa-code",
+            "items": [
+                "Python",
+                "Bash",
+                "MATLAB",
+                "R",
+                "Git",
+                "uv",
+                "Conda"
+            ]
+        },
+        {
+            "category": "Machine Learning &AI",
+            "icon": "fas fa-brain",
+            "items": [
+                "Scikit-learn",
+                "TensorFlow",
+                "PyTorch",
+                "XGBoost",
+                "TabPFN",
+                "TabICL",
+                "SHAP",
+                "SHAP-IQ",
+                "CNNs/RNNs",
+                "Transformers/GNNs",
+                "Word2Vec",
+                "BERT"
+            ]
+        },
+        {
+            "category": "Genomics & Microscopy",
+            "icon": "fas fa-dna",
+            "items": [
+                "NGS (Illumina iSeq 100, NextSeq 2000, Oxford Nanopore MinION)",
+                "EPI2ME",
+                "Confocal/TEM Microscopy"
+            ]
+        },
+        {
+            "category": "Wet Lab & Assays",
+            "icon": "fas fa-flask",
+            "items": [
+                "DNA/RNA Extraction",
+                "PCR/RT-PCR/qPCR",
+                "Gel Electrophoresis",
+                "Cell Cultures (Microbial, Plant)",
+                "MTT assays",
+                "PBMC Isolation",
+                "Cell Counting"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "icon": "fas fa-trophy",
+            "title": "UNIPI Merit Scholarship",
+            "year": "2024-25 & 2023-24",
+            "description": "Outstanding international student scholar at the University of Pisa."
+        },
+        {
+            "icon": "fas fa-medal",
+            "title": "Talentpool Scholarship",
+            "year": "2014",
+            "description": "Top-tier merit scholarship by the Ministry of Education, Bangladesh."
+        }
+    ],
+    "publications": [
+        {
+            "year": "2026",
+            "title": "Communication Breakdown and Evolution of the Cancer Cell",
+            "authors": "Nemati Fard, L.A., Arora, C., Miglionico, P., Varisco, M., Bisceglia, L., <strong>Zahid, F.</strong>, Vukotic, R., Raimondi, F.",
+            "journal": "Manuscript under review at Molecular Systems Biology.",
+            "link": "https://doi.org/10.1101/2025.08.15.670478",
+            "link_text": "Preprint DOI: 10.1101/2025.08.15.670478"
+        },
+        {
+            "year": "2021",
+            "title": "In silico investigations on curcuminoids from Curcuma longa as positive regulators of the Wnt/β-catenin signaling pathway in wound healing",
+            "authors": "Reshad, R.A.I., Alam, S., Raihan, H.B., Meem, K.N., Rahman, F., <strong>Zahid, F.</strong>, Rafid, M.I., Rahman, S.M.O., Omit, S., & Ali, M.H.",
+            "journal": "Egyptian Journal of Medical Human Genetics, 22, 65.",
+            "link": "https://doi.org/10.1186/s43042-021-00182-9",
+            "link_text": "DOI: 10.1186/s43042-021-00182-9"
+        }
+    ],
+    "contact": {
+        "address": "Via Savona 22/B, Pisa, Italy 56123",
+        "phone": "+39 327 316 6137",
+        "email": "f.zahid@studenti.unipi.it"
+    }
+}
