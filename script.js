@@ -34,6 +34,7 @@ fetch('data.json')
         renderExperience(data.experience);
         renderSkills(data.skills);
         renderAwards(data.awards);
+        if (data.conferences) renderConferences(data.conferences);
         renderPublications(data.publications);
         renderContact(data.contact);
         
@@ -161,6 +162,22 @@ function renderPublications(pubs) {
                 <p class="authors">${pub.authors}</p>
                 <p class="journal">${pub.journal}</p>
                 <a href="${pub.link}" target="_blank" class="pub-link">${pub.link_text} <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    `).join('');
+}
+
+function renderConferences(confs) {
+    const container = document.getElementById('conferences-container');
+    if (!container) return;
+    container.innerHTML = confs.map(conf => `
+        <div class="pub-card fade-in">
+            <div class="pub-year">${conf.year}</div>
+            <div class="pub-content">
+                <h3>${conf.title}</h3>
+                <p class="authors">${conf.authors}</p>
+                <p class="journal">${conf.conference}</p>
+                <p class="small-text">${conf.details}</p>
             </div>
         </div>
     `).join('');

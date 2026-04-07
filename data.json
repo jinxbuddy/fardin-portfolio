@@ -199,6 +199,15 @@
             "description": "Top-tier merit scholarship by the Ministry of Education, Bangladesh."
         }
     ],
+    "conferences": [
+        {
+            "year": "2026",
+            "title": "Beyond the mechanism of action: a data-driven interpretable model reveals new determinants of cancer drug sensitivity",
+            "authors": "Varisco, M., <strong>Zahid, F.</strong>, Carli, F., Raimondi, F.",
+            "conference": "FEBS Congress 2026",
+            "details": "Research Late-Breaking Abstract (FEBS26-LB-RES-2711) - Topic: Cancer and therapy strategies."
+        }
+    ],
     "publications": [
         {
             "year": "2026",
