@@ -45,16 +45,16 @@
         },
         {
             "title": "Scientific Computing with Python",
-            "institution": "freeCodeCamp (11/2021 - 05/2021)",
+            "institution": "freeCodeCamp (05/2021 - 11/2021)",
             "description": "Comprehensive hands-on training in Python programming, covering data structures, object-oriented programming, algorithms, and logic for scientific computing applications."
         },
         {
-            "title": "Drug designing using cheminformatics techniques",
+            "title": "Drug Designing using Cheminformatics Techniques",
             "institution": "Red Green Research Society",
             "description": "Workshop covering the fundamentals of cheminformatics, molecular docking, and computational drug discovery workflows."
         },
         {
-            "title": "R for reproducible Scientific analysis",
+            "title": "R for Reproducible Scientific Analysis",
             "institution": "Software Carpentry",
             "description": "Training program teaching researchers how to write modular, reproducible code in R for statistical data analysis and visualization."
         }

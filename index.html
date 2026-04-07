@@ -118,15 +118,19 @@
             <div class="contact-info" id="contact-container">
                 <!-- Injected via JS -->
             </div>
-            <form class="contact-form">
+            <form action="https://formsubmit.co/f.zahid@studenti.unipi.it" method="POST" class="contact-form">
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Redirect back to the website after sending -->
+                <input type="hidden" name="_next" value="https://jinxbuddy.github.io/fardin-portfolio/">
                 <div class="form-group">
-                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
                 </div>
                 <button type="submit" class="btn primary">Send Message</button>
             </form>
