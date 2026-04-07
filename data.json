@@ -2,7 +2,7 @@
     "hero": {
         "greeting": "Hi, I'm",
         "name": "Fardin Zahid",
-        "title": "Biotech & AI Enthusiast",
+        "title": "Biotechnologist & AI Researcher",
         "summary": "Currently pursuing a Master’s degree in Biotechnologies and Applied Artificial Intelligence for Health at the University of Pisa. I aim to leverage machine learning and AI to uncover disease mechanisms and therapeutic responses for precision medicine.",
         "socials": {
             "linkedin": "https://linkedin.com/in/fardin-zahid",
@@ -61,7 +61,7 @@
     ],
     "experience": [
         {
-            "institution": "BioInfoLab@SNS, Scuola Normale Superiore, Pisa, Italy",
+            "institution": "BioInfoLab@SNS, Scuola Normale Superiore",
             "role": "MS Thesis Student",
             "date": "06/2025 - Present",
             "supervisor": "Prof. Francesco Raimondi, PhD",
@@ -71,7 +71,7 @@
             ]
         },
         {
-            "institution": "Child Health Research Foundation, Dhaka, Bangladesh",
+            "institution": "Child Health Research Foundation",
             "role": "Research Intern",
             "date": "10/2022 - 12/2022",
             "details": [
@@ -80,7 +80,7 @@
             ]
         },
         {
-            "institution": "Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+            "institution": "Shahjalal University of Science and Technology",
             "role": "Bachelor’s Thesis Student",
             "date": "04/2021 - 12/2021",
             "supervisor": "Prof. Mohammad Zahangir Alam, PhD",
@@ -92,7 +92,63 @@
     ],
     "skills": [
         {
-            "category": "Programming & Tools",
+            "category": "Deep Learning & Vision",
+            "icon": "fas fa-eye",
+            "items": [
+                "CNNs & RNNs",
+                "Transformers & GNNs",
+                "Autoencoders",
+                "Variational Autoencoders (VAEs)",
+                "Sparse Autoencoders",
+                "ResNet50",
+                "VGG16",
+                "MobileNet",
+                "Network in Network"
+            ]
+        },
+        {
+            "category": "Classical Machine Learning",
+            "icon": "fas fa-brain",
+            "items": [
+                "Decision Trees",
+                "Random Forest",
+                "Rainforest",
+                "KNN",
+                "Naive-Bayes",
+                "SVC & SVM",
+                "Case-Based Reasoning",
+                "BOAT",
+                "XGBoost",
+                "TabPFN",
+                "TabICL"
+            ]
+        },
+        {
+            "category": "Unsupervised Learning",
+            "icon": "fas fa-project-diagram",
+            "items": [
+                "K-Means",
+                "K-Medoids",
+                "CLARANS",
+                "AGNES",
+                "BIRCH",
+                "Chameleon",
+                "DIANA"
+            ]
+        },
+        {
+            "category": "Explainable AI & NLP",
+            "icon": "fas fa-chart-bar",
+            "items": [
+                "SHAP",
+                "SHAP-IQ",
+                "Word2Vec",
+                "Seq2Seq",
+                "BERT"
+            ]
+        },
+        {
+            "category": "Programming & Development",
             "icon": "fas fa-code",
             "items": [
                 "Python",
@@ -101,32 +157,17 @@
                 "R",
                 "Git",
                 "uv",
-                "Conda"
-            ]
-        },
-        {
-            "category": "Machine Learning &AI",
-            "icon": "fas fa-brain",
-            "items": [
-                "Scikit-learn",
+                "Conda",
+                "Scikit-Learn",
                 "TensorFlow",
-                "PyTorch",
-                "XGBoost",
-                "TabPFN",
-                "TabICL",
-                "SHAP",
-                "SHAP-IQ",
-                "CNNs/RNNs",
-                "Transformers/GNNs",
-                "Word2Vec",
-                "BERT"
+                "PyTorch"
             ]
         },
         {
             "category": "Genomics & Microscopy",
             "icon": "fas fa-dna",
             "items": [
-                "NGS (Illumina iSeq 100, NextSeq 2000, Oxford Nanopore MinION)",
+                "NGS (Illumina iSeq 100, Oxford Nanopore)",
                 "EPI2ME",
                 "Confocal/TEM Microscopy"
             ]
@@ -138,10 +179,9 @@
                 "DNA/RNA Extraction",
                 "PCR/RT-PCR/qPCR",
                 "Gel Electrophoresis",
-                "Cell Cultures (Microbial, Plant)",
+                "Microbial & Plant Cell Cultures",
                 "MTT assays",
-                "PBMC Isolation",
-                "Cell Counting"
+                "PBMC Isolation"
             ]
         }
     ],
