@@ -204,8 +204,8 @@
             "year": "2026",
             "title": "Beyond the mechanism of action: a data-driven interpretable model reveals new determinants of cancer drug sensitivity",
             "authors": "Varisco, M., <strong>Zahid, F.</strong>, Carli, F., Raimondi, F.",
-            "conference": "FEBS Congress 2026",
-            "details": "Research Late-Breaking Abstract (FEBS26-LB-RES-2711) - Topic: Cancer and therapy strategies."
+            "conference": "BITS Meeting 2026",
+            "details": "Topic: AI, Models and Tools."
         }
     ],
     "publications": [
@@ -215,7 +215,7 @@
             "authors": "Nemati Fard, L.A., Arora, C., Miglionico, P., Varisco, M., Bisceglia, L., <strong>Zahid, F.</strong>, Vukotic, R., Raimondi, F.",
             "journal": "Manuscript under review at Molecular Systems Biology.",
             "link": "https://doi.org/10.1101/2025.08.15.670478",
-            "link_text": "Preprint DOI: 10.1101/2025.08.15.670478"
+            "link_text": "Previous Pre-Print DOI: 10.1101/2025.08.15.670478"
         },
         {
             "year": "2021",
@@ -228,7 +228,6 @@
     ],
     "contact": {
         "address": "Via Savona 22/B, Pisa, Italy 56123",
-        "phone": "+39 327 316 6137",
         "email": "f.zahid@studenti.unipi.it"
     }
 }
